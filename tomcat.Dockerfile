@@ -3,7 +3,7 @@ ROM tomcat:8-jre8
 RUN apt-get update -y \
     && apt-get install -y curl tar file xz-utils build-essential
 
-RUN apt-get install -y cmake libfreety  pe6-dev libfontconfig1-dev xclip
+RUN apt-get install -y cmake libfreetype6-dev libfontconfig1-dev xclip
 
 #fontconfig-config fontconfig libfreetype6
 
